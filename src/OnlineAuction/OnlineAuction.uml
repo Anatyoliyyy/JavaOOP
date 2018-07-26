@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>OnlineAuction</OriginalElement>
+  <nodes>
+    <node x="105.15446289821296" y="145.5">OnlineAuction.History</node>
+    <node x="108.13141025641028" y="1063.0">OnlineAuction.Lot</node>
+    <node x="362.63779623154625" y="1956.0">OnlineAuction.Runners</node>
+    <node x="245.00673562548587" y="0.0">OnlineAuction.Enums</node>
+    <node x="89.00641025641028" y="1600.0">OnlineAuction.AuctionsList</node>
+    <node x="283.879462898213" y="123.0">OnlineAuction.Account</node>
+    <node x="497.879462898213" y="90.0">OnlineAuction.Product</node>
+    <node x="0.0" y="1520.0">OnlineAuction.SortAndFilter</node>
+    <node x="196.0" y="1836.0">OnlineAuction.IO</node>
+    <node x="226.39583333333334" y="779.0">OnlineAuction.Bid</node>
+    <node x="131.69612956487964" y="358.0">OnlineAuction.User</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="OnlineAuction.User" target="OnlineAuction.Account">
+      <point x="75.25" y="-170.5" />
+      <point x="357.44612956487964" y="338.0" />
+      <point x="380.879462898213" y="338.0" />
+      <point x="0.0" y="71.0" />
+    </edge>
+    <edge source="OnlineAuction.Runners" target="OnlineAuction.User">
+      <point x="11.090909090909122" y="-15.0" />
+      <point x="434.72870532245537" y="1896.0" />
+      <point x="475.1522435897436" y="1896.0" />
+      <point x="475.1522435897436" y="719.0" />
+      <point x="420.15446289821284" y="719.0" />
+      <point x="137.9583333333332" y="170.5" />
+    </edge>
+    <edge source="OnlineAuction.Lot" target="OnlineAuction.Bid">
+      <point x="18.73333333333335" y="-203.5" />
+      <point x="267.3647435897436" y="963.0" />
+      <point x="248.14583333333334" y="963.0" />
+      <point x="-65.25" y="82.0" />
+    </edge>
+    <edge source="OnlineAuction.User" target="OnlineAuction.Product">
+      <point x="125.41666666666663" y="-170.5" />
+      <point x="407.61279623154627" y="338.0" />
+      <point x="538.879462898213" y="338.0" />
+      <point x="-164.0" y="104.0" />
+    </edge>
+    <edge source="OnlineAuction.User" target="OnlineAuction.Bid">
+      <point x="37.62499999999994" y="170.5" />
+      <point x="319.8211295648796" y="759.0" />
+      <point x="348.1958333333333" y="759.0" />
+      <point x="34.8" y="-82.0" />
+    </edge>
+    <edge source="OnlineAuction.Runners" target="OnlineAuction.AuctionsList">
+      <point x="-33.27272727272725" y="-15.0" />
+      <point x="390.365068958819" y="1916.0" />
+      <point x="185.5" y="1916.0" />
+      <point x="185.5" y="1811.0" />
+      <point x="213.50641025641028" y="1811.0" />
+      <point x="0.0" y="93.0" />
+    </edge>
+    <edge source="OnlineAuction.Runners" target="OnlineAuction.Account">
+      <point x="22.18181818181813" y="-15.0" />
+      <point x="445.8196144133644" y="1906.0" />
+      <point x="490.2730769230769" y="1906.0" />
+      <point x="490.2730769230769" y="328.0" />
+      <point x="445.5461295648796" y="328.0" />
+      <point x="64.66666666666663" y="71.0" />
+    </edge>
+    <edge source="OnlineAuction.Product" target="OnlineAuction.Enums">
+      <point x="-102.5" y="-104.0" />
+      <point x="600.379462898213" y="70.0" />
+      <point x="312.09006895881924" y="70.0" />
+      <point x="9.583333333333371" y="15.0" />
+    </edge>
+    <edge source="OnlineAuction.Runners" target="OnlineAuction.Product">
+      <point x="44.363636363636374" y="-15.0" />
+      <point x="468.0014325951826" y="1926.0" />
+      <point x="764.8231060606063" y="1926.0" />
+      <point x="764.8231060606063" y="338.0" />
+      <point x="866.879462898213" y="338.0" />
+      <point x="164.0" y="104.0" />
+    </edge>
+    <edge source="OnlineAuction.AuctionsList" target="OnlineAuction.SortAndFilter">
+      <point x="-83.0" y="-93.0" />
+      <point x="130.50641025641028" y="1575.0" />
+      <point x="111.0" y="1575.0" />
+      <point x="37.0" y="15.0" />
+    </edge>
+    <edge source="OnlineAuction.History" target="OnlineAuction.Lot">
+      <point x="-62.80000000000001" y="48.5" />
+      <point x="120.85446289821294" y="318.0" />
+      <point x="105.32916666666677" y="318.0" />
+      <point x="105.32916666666677" y="1023.0" />
+      <point x="154.96474358974365" y="1023.0" />
+      <point x="-93.66666666666663" y="-203.5" />
+    </edge>
+    <edge source="OnlineAuction.Lot" target="OnlineAuction.Product">
+      <point x="131.13333333333333" y="-203.5" />
+      <point x="379.7647435897436" y="1043.0" />
+      <point x="687.2272435897437" y="1043.0" />
+      <point x="687.2272435897437" y="338.0" />
+      <point x="702.879462898213" y="338.0" />
+      <point x="0.0" y="104.0" />
+    </edge>
+    <edge source="OnlineAuction.IO" target="OnlineAuction.AuctionsList">
+      <point x="0.0" y="-15.0" />
+      <point x="241.5" y="1811.0" />
+      <point x="296.5064102564103" y="1811.0" />
+      <point x="83.0" y="93.0" />
+    </edge>
+    <edge source="OnlineAuction.Lot" target="OnlineAuction.Enums">
+      <point x="-131.13333333333327" y="-203.5" />
+      <point x="117.49807692307701" y="1043.0" />
+      <point x="80.59612956487967" y="1043.0" />
+      <point x="80.59612956487967" y="60.0" />
+      <point x="273.7567356254859" y="60.0" />
+      <point x="-28.75" y="15.0" />
+    </edge>
+    <edge source="OnlineAuction.Lot" target="OnlineAuction.User">
+      <point x="-56.19999999999996" y="-203.5" />
+      <point x="192.43141025641032" y="1003.0" />
+      <point x="146.3083333333334" y="1003.0" />
+      <point x="146.3083333333334" y="759.0" />
+      <point x="144.23779623154633" y="759.0" />
+      <point x="-137.95833333333331" y="170.5" />
+    </edge>
+    <edge source="OnlineAuction.User" target="OnlineAuction.History">
+      <point x="-125.41666666666663" y="-170.5" />
+      <point x="156.779462898213" y="338.0" />
+      <point x="183.65446289821296" y="338.0" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="OnlineAuction.AuctionsList" target="OnlineAuction.Lot">
+      <point x="83.0" y="-93.0" />
+      <point x="296.5064102564103" y="1575.0" />
+      <point x="252.76279623154628" y="1575.0" />
+      <point x="252.76279623154628" y="1495.0" />
+      <point x="283.7564102564103" y="1495.0" />
+      <point x="35.125" y="203.5" />
+    </edge>
+    <edge source="OnlineAuction.SortAndFilter" target="OnlineAuction.Enums">
+      <point x="-37.0" y="-15.0" />
+      <point x="37.0" y="50.0" />
+      <point x="254.5900689588192" y="50.0" />
+      <point x="-47.916666666666686" y="15.0" />
+    </edge>
+    <edge source="OnlineAuction.Runners" target="OnlineAuction.IO">
+      <point x="-22.18181818181813" y="-15.0" />
+      <point x="401.4559780497281" y="1906.0" />
+      <point x="241.5" y="1906.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="OnlineAuction.Bid" target="OnlineAuction.User">
+      <point x="-69.6" y="-82.0" />
+      <point x="-37.625" y="170.5" />
+    </edge>
+    <edge source="OnlineAuction.Runners" target="OnlineAuction.Lot">
+      <point x="-11.090909090909122" y="-15.0" />
+      <point x="412.5468871406371" y="1896.0" />
+      <point x="348.5064102564103" y="1896.0" />
+      <point x="348.5064102564103" y="1495.0" />
+      <point x="354.0064102564103" y="1495.0" />
+      <point x="105.375" y="203.5" />
+    </edge>
+    <edge source="OnlineAuction.SortAndFilter" target="OnlineAuction.Lot">
+      <point x="37.0" y="-15.0" />
+      <point x="111.0" y="1495.0" />
+      <point x="143.25641025641028" y="1495.0" />
+      <point x="-105.375" y="203.5" />
+    </edge>
+    <edge source="OnlineAuction.Bid" target="OnlineAuction.Lot">
+      <point x="65.25" y="82.0" />
+      <point x="378.64583333333337" y="1013.0" />
+      <point x="323.5647435897436" y="1013.0" />
+      <point x="74.93333333333334" y="-203.5" />
+    </edge>
+    <edge source="OnlineAuction.User" target="OnlineAuction.Lot">
+      <point x="-62.708333333333314" y="170.5" />
+      <point x="219.48779623154633" y="759.0" />
+      <point x="179.30833333333337" y="759.0" />
+      <point x="179.30833333333337" y="973.0" />
+      <point x="248.63141025641028" y="973.0" />
+      <point x="0.0" y="-203.5" />
+    </edge>
+    <edge source="OnlineAuction.Runners" target="OnlineAuction.Enums">
+      <point x="55.454545454545496" y="-15.0" />
+      <point x="479.09234168609174" y="1936.0" />
+      <point x="918.379462898213" y="1936.0" />
+      <point x="918.379462898213" y="50.0" />
+      <point x="350.4234022921525" y="50.0" />
+      <point x="47.91666666666663" y="15.0" />
+    </edge>
+    <edge source="OnlineAuction.Runners" target="OnlineAuction.SortAndFilter">
+      <point x="-55.454545454545496" y="-15.0" />
+      <point x="368.18325077700075" y="1936.0" />
+      <point x="37.0" y="1936.0" />
+      <point x="-37.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9634902411021813" x="607.5" y="218.19649666348906" />
+  <SelectedNodes>
+    <node>OnlineAuction.History</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

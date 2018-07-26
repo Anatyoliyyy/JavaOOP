@@ -1,0 +1,4 @@
+Order number 1  price:  8.0
+Order number 2  price:  14.0
+Order number 3  price:  20.0
+Order number 4  price:  40.0

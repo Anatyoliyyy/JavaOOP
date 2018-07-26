@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Lesson5.Task2FileSystem</OriginalElement>
+  <nodes>
+    <node x="0.0" y="679.0">Lesson5.Task2FileSystem.FSRunner</node>
+    <node x="234.5" y="0.0">Lesson5.Task2FileSystem.FSItem</node>
+    <node x="346.0" y="146.0">Lesson5.Task2FileSystem.Symlink</node>
+    <node x="242.0" y="382.0">Lesson5.Task2FileSystem.Directory</node>
+    <node x="141.99999999999997" y="190.0">Lesson5.Task2FileSystem.NamedFSItem</node>
+    <node x="0.0" y="437.0">Lesson5.Task2FileSystem.File</node>
+    <node x="613.0" y="0.0">Lesson5.Task2FileSystem.DirectoryItems</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Lesson5.Task2FileSystem.NamedFSItem" target="Lesson5.Task2FileSystem.FSItem">
+      <point x="2.8421709430404007E-14" y="-49.0" />
+      <point x="234.0" y="121.0" />
+      <point x="290.0" y="121.0" />
+      <point x="-55.5" y="48.0" />
+    </edge>
+    <edge source="Lesson5.Task2FileSystem.Symlink" target="Lesson5.Task2FileSystem.FSItem">
+      <point x="0.0" y="-93.0" />
+      <point x="457.0" y="121.0" />
+      <point x="401.0" y="121.0" />
+      <point x="55.5" y="48.0" />
+    </edge>
+    <edge source="Lesson5.Task2FileSystem.Directory" target="Lesson5.Task2FileSystem.NamedFSItem">
+      <point x="0.0" y="-126.0" />
+      <point x="357.0" y="357.0" />
+      <point x="280.0" y="357.0" />
+      <point x="46.00000000000003" y="49.0" />
+    </edge>
+    <edge source="Lesson5.Task2FileSystem.File" target="Lesson5.Task2FileSystem.NamedFSItem">
+      <point x="0.0" y="-71.0" />
+      <point x="111.0" y="357.0" />
+      <point x="187.99999999999997" y="357.0" />
+      <point x="-46.0" y="49.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9442231075697212" x="379.5" y="356.5" />
+  <SelectedNodes>
+    <node>Lesson5.Task2FileSystem.FSRunner</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

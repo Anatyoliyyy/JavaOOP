@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>KP2.KP</OriginalElement>
+  <nodes>
+    <node x="1486.364549961861" y="1560.0">KP2.KP.Lots</node>
+    <node x="98.1629787784675" y="769.0">KP2.KP.Rate</node>
+    <node x="481.364549961861" y="1637.5">KP2.KP.ComparatorsForAuction</node>
+    <node x="974.364549961861" y="1625.5">KP2.KP.PredicateNameContains</node>
+    <node x="387.68417851694477" y="1428.0">KP2.KP.ByDeadlineComparator</node>
+    <node x="303.8346661490683" y="1919.0">KP2.KP.OnlineAuctionRunner</node>
+    <node x="628.8181070883734" y="847.0">KP2.KP.ByNameComparator</node>
+    <node x="134.6841785169447" y="1604.0">KP2.KP.Trades</node>
+    <node x="872.489549961861" y="471.0">KP2.KP.Lot</node>
+    <node x="1301.2753439304786" y="214.0">KP2.KP.ProductCategory</node>
+    <node x="977.364549961861" y="1428.0">KP2.KP.Predicate</node>
+    <node x="212.36454996186092" y="1027.0">KP2.KP.Trade</node>
+    <node x="56.39086575133467" y="0.0">KP2.KP.Account</node>
+    <node x="154.76586575133467" y="236.5">KP2.KP.User</node>
+    <node x="748.364549961861" y="1637.0">KP2.KP.PredicatorHasExpiredDeadline</node>
+    <node x="1231.364549961861" y="1614.5">KP2.KP.PredicatByStartingPrice</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="KP2.KP.OnlineAuctionRunner" target="KP2.KP.Trades">
+      <point x="-8.78947368421052" y="-26.0" />
+      <point x="378.5451924648578" y="1819.0" />
+      <point x="308.6841785169447" y="1819.0" />
+      <point x="58.0" y="70.5" />
+    </edge>
+    <edge source="KP2.KP.PredicatByStartingPrice" target="KP2.KP.Predicate">
+      <point x="-58.750000000000114" y="-60.0" />
+      <point x="1290.1145499618608" y="1530.0" />
+      <point x="1080.264549961861" y="1530.0" />
+      <point x="29.399999999999977" y="26.0" />
+    </edge>
+    <edge source="KP2.KP.OnlineAuctionRunner" target="KP2.KP.Rate">
+      <point x="-43.9473684210526" y="-26.0" />
+      <point x="343.3872977280157" y="1859.0" />
+      <point x="85.32376389342926" y="1859.0" />
+      <point x="85.32376389342926" y="997.0" />
+      <point x="124.36297877846755" y="997.0" />
+      <point x="-104.79999999999995" y="104.0" />
+    </edge>
+    <edge source="KP2.KP.OnlineAuctionRunner" target="KP2.KP.ComparatorsForAuction">
+      <point x="8.78947368421052" y="-26.0" />
+      <point x="396.12413983327883" y="1819.0" />
+      <point x="604.864549961861" y="1819.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="KP2.KP.PredicateNameContains" target="KP2.KP.Predicate">
+      <point x="-59.25" y="-49.0" />
+      <point x="1033.614549961861" y="1540.0" />
+      <point x="1050.864549961861" y="1540.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="KP2.KP.OnlineAuctionRunner" target="KP2.KP.Account">
+      <point x="-70.31578947368416" y="-26.0" />
+      <point x="317.01887667538415" y="1889.0" />
+      <point x="34.78947368421041" y="1889.0" />
+      <point x="34.78947368421041" y="194.0" />
+      <point x="143.39086575133467" y="194.0" />
+      <point x="-29.0" y="82.0" />
+    </edge>
+    <edge source="KP2.KP.OnlineAuctionRunner" target="KP2.KP.Trade">
+      <point x="0.0" y="-26.0" />
+      <point x="387.3346661490683" y="1809.0" />
+      <point x="377.18417851694477" y="1809.0" />
+      <point x="377.18417851694477" y="1408.0" />
+      <point x="374.364549961861" y="1408.0" />
+      <point x="5.6843418860808015E-14" y="170.5" />
+    </edge>
+    <edge source="KP2.KP.ComparatorsForAuction" target="KP2.KP.Trade">
+      <point x="-30.875" y="-37.0" />
+      <point x="573.989549961861" y="1520.0" />
+      <point x="603.1841785169447" y="1520.0" />
+      <point x="603.1841785169447" y="1398.0" />
+      <point x="466.9359785332896" y="1398.0" />
+      <point x="92.57142857142867" y="170.5" />
+    </edge>
+    <edge source="KP2.KP.Trade" target="KP2.KP.Rate">
+      <point x="-81.0" y="-170.5" />
+      <point x="293.3645499618609" y="1007.0" />
+      <point x="281.5629787784675" y="1007.0" />
+      <point x="52.39999999999998" y="104.0" />
+    </edge>
+    <edge source="KP2.KP.Lots" target="KP2.KP.Predicate">
+      <point x="-97.5" y="-114.5" />
+      <point x="1518.864549961861" y="1520.0" />
+      <point x="1109.664549961861" y="1520.0" />
+      <point x="58.799999999999955" y="26.0" />
+    </edge>
+    <edge source="KP2.KP.OnlineAuctionRunner" target="KP2.KP.PredicatByStartingPrice">
+      <point x="35.15789473684208" y="-26.0" />
+      <point x="422.4925608859104" y="1849.0" />
+      <point x="1348.864549961861" y="1849.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="KP2.KP.Lots" target="KP2.KP.Lot">
+      <point x="32.5" y="-114.5" />
+      <point x="1648.864549961861" y="1540.0" />
+      <point x="1642.2862373324617" y="1540.0" />
+      <point x="1642.2862373324617" y="719.0" />
+      <point x="1124.239549961861" y="719.0" />
+      <point x="92.75" y="104.0" />
+    </edge>
+    <edge source="KP2.KP.ComparatorsForAuction" target="KP2.KP.ByDeadlineComparator">
+      <point x="-92.625" y="-37.0" />
+      <point x="512.239549961861" y="1520.0" />
+      <point x="490.18417851694477" y="1520.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="KP2.KP.OnlineAuctionRunner" target="KP2.KP.ProductCategory">
+      <point x="79.10526315789468" y="-26.0" />
+      <point x="466.439929306963" y="1899.0" />
+      <point x="1789.0450807725838" y="1899.0" />
+      <point x="1789.0450807725838" y="441.0" />
+      <point x="1463.1503439304786" y="441.0" />
+      <point x="69.375" y="93.5" />
+    </edge>
+    <edge source="KP2.KP.Rate" target="KP2.KP.User">
+      <point x="-32.75" y="-104.0" />
+      <point x="196.4129787784675" y="749.0" />
+      <point x="182.81429456794126" y="749.0" />
+      <point x="182.81429456794126" y="451.0" />
+      <point x="246.26586575133467" y="451.0" />
+      <point x="0.0" y="71.0" />
+    </edge>
+    <edge source="KP2.KP.Rate" target="KP2.KP.Lot">
+      <point x="98.25" y="-104.0" />
+      <point x="327.4129787784675" y="709.0" />
+      <point x="912.239549961861" y="709.0" />
+      <point x="-119.25" y="104.0" />
+    </edge>
+    <edge source="KP2.KP.Trades" target="KP2.KP.Predicate">
+      <point x="77.33333333333331" y="-70.5" />
+      <point x="328.017511850278" y="1530.0" />
+      <point x="992.0645499618611" y="1530.0" />
+      <point x="-58.799999999999955" y="26.0" />
+    </edge>
+    <edge source="KP2.KP.ByNameComparator" target="KP2.KP.Lot">
+      <point x="0.0" y="-26.0" />
+      <point x="718.3181070883734" y="739.0" />
+      <point x="991.739549961861" y="739.0" />
+      <point x="-39.75" y="104.0" />
+    </edge>
+    <edge source="KP2.KP.Lot" target="KP2.KP.ProductCategory">
+      <point x="119.25" y="-104.0" />
+      <point x="1150.739549961861" y="451.0" />
+      <point x="1370.6503439304786" y="451.0" />
+      <point x="-23.125" y="93.5" />
+    </edge>
+    <edge source="KP2.KP.OnlineAuctionRunner" target="KP2.KP.PredicatorHasExpiredDeadline">
+      <point x="17.57894736842104" y="-26.0" />
+      <point x="404.91361351748935" y="1829.0" />
+      <point x="851.364549961861" y="1829.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="KP2.KP.ComparatorsForAuction" target="KP2.KP.Lot">
+      <point x="92.625" y="-37.0" />
+      <point x="697.489549961861" y="1520.0" />
+      <point x="874.5806070883732" y="1520.0" />
+      <point x="874.5806070883732" y="749.0" />
+      <point x="1018.239549961861" y="749.0" />
+      <point x="-13.25" y="104.0" />
+    </edge>
+    <edge source="KP2.KP.PredicateNameContains" target="KP2.KP.Lot">
+      <point x="59.25" y="-49.0" />
+      <point x="1152.114549961861" y="1540.0" />
+      <point x="1145.5362373324617" y="1540.0" />
+      <point x="1145.5362373324617" y="749.0" />
+      <point x="1044.739549961861" y="749.0" />
+      <point x="13.25" y="104.0" />
+    </edge>
+    <edge source="KP2.KP.OnlineAuctionRunner" target="KP2.KP.Lots">
+      <point x="43.9473684210526" y="-26.0" />
+      <point x="431.2820345701209" y="1859.0" />
+      <point x="1551.364549961861" y="1859.0" />
+      <point x="-65.0" y="114.5" />
+    </edge>
+    <edge source="KP2.KP.PredicatorHasExpiredDeadline" target="KP2.KP.Trade">
+      <point x="-51.5" y="-37.5" />
+      <point x="799.864549961861" y="1500.0" />
+      <point x="695.9966785169447" y="1500.0" />
+      <point x="695.9966785169447" y="1388.0" />
+      <point x="513.2216928190039" y="1388.0" />
+      <point x="138.85714285714295" y="170.5" />
+    </edge>
+    <edge source="KP2.KP.User" target="KP2.KP.Account">
+      <point x="-45.75" y="-71.0" />
+      <point x="29.0" y="82.0" />
+    </edge>
+    <edge source="KP2.KP.OnlineAuctionRunner" target="KP2.KP.PredicateNameContains">
+      <point x="26.36842105263156" y="-26.0" />
+      <point x="413.7030872016999" y="1839.0" />
+      <point x="1092.864549961861" y="1839.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="KP2.KP.PredicatorHasExpiredDeadline" target="KP2.KP.Predicate">
+      <point x="51.5" y="-37.5" />
+      <point x="902.864549961861" y="1540.0" />
+      <point x="1021.4645499618609" y="1540.0" />
+      <point x="-29.399999999999977" y="26.0" />
+    </edge>
+    <edge source="KP2.KP.OnlineAuctionRunner" target="KP2.KP.User">
+      <point x="-61.52631578947364" y="-26.0" />
+      <point x="325.80835035959467" y="1879.0" />
+      <point x="50.96992481202983" y="1879.0" />
+      <point x="50.96992481202983" y="421.0" />
+      <point x="167.83729432276323" y="421.0" />
+      <point x="-78.42857142857144" y="71.0" />
+    </edge>
+    <edge source="KP2.KP.ByDeadlineComparator" target="KP2.KP.Trade">
+      <point x="5.6843418860808015E-14" y="-26.0" />
+      <point x="490.1841785169448" y="1408.0" />
+      <point x="420.65026424757525" y="1408.0" />
+      <point x="46.285714285714334" y="170.5" />
+    </edge>
+    <edge source="KP2.KP.OnlineAuctionRunner" target="KP2.KP.Lot">
+      <point x="61.52631578947364" y="-26.0" />
+      <point x="448.86098193854195" y="1879.0" />
+      <point x="1756.864549961861" y="1879.0" />
+      <point x="1756.864549961861" y="709.0" />
+      <point x="1150.739549961861" y="709.0" />
+      <point x="119.25" y="104.0" />
+    </edge>
+    <edge source="KP2.KP.Lot" target="KP2.KP.User">
+      <point x="-119.25" y="-104.0" />
+      <point x="912.239549961861" y="441.0" />
+      <point x="298.551580037049" y="441.0" />
+      <point x="52.285714285714334" y="71.0" />
+    </edge>
+    <edge source="KP2.KP.Trade" target="KP2.KP.User">
+      <point x="27.0" y="-170.5" />
+      <point x="401.3645499618609" y="1007.0" />
+      <point x="434.1145499618609" y="1007.0" />
+      <point x="434.1145499618609" y="451.0" />
+      <point x="272.40872289419184" y="451.0" />
+      <point x="26.142857142857167" y="71.0" />
+    </edge>
+    <edge source="KP2.KP.Trades" target="KP2.KP.Trade">
+      <point x="-77.33333333333326" y="-70.5" />
+      <point x="173.35084518361145" y="1540.0" />
+      <point x="203.6978832951943" y="1540.0" />
+      <point x="203.6978832951943" y="1398.0" />
+      <point x="281.79312139043236" y="1398.0" />
+      <point x="-92.57142857142856" y="170.5" />
+    </edge>
+    <edge source="KP2.KP.ComparatorsForAuction" target="KP2.KP.ByNameComparator">
+      <point x="30.875" y="-37.0" />
+      <point x="635.739549961861" y="1510.0" />
+      <point x="718.3181070883734" y="1510.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="KP2.KP.Trade" target="KP2.KP.Lot">
+      <point x="81.0" y="-170.5" />
+      <point x="455.3645499618609" y="1007.0" />
+      <point x="445.1145499618609" y="1007.0" />
+      <point x="445.1145499618609" y="719.0" />
+      <point x="938.739549961861" y="719.0" />
+      <point x="-92.75" y="104.0" />
+    </edge>
+    <edge source="KP2.KP.Lots" target="KP2.KP.ProductCategory">
+      <point x="97.5" y="-114.5" />
+      <point x="1713.864549961861" y="1540.0" />
+      <point x="1778.0450807725838" y="1540.0" />
+      <point x="1778.0450807725838" y="451.0" />
+      <point x="1416.9003439304786" y="451.0" />
+      <point x="23.125" y="93.5" />
+    </edge>
+    <edge source="KP2.KP.PredicatByStartingPrice" target="KP2.KP.Lot">
+      <point x="58.749999999999886" y="-60.0" />
+      <point x="1407.6145499618608" y="739.0" />
+      <point x="1071.239549961861" y="739.0" />
+      <point x="39.75" y="104.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="296.5" y="1645.5" />
+  <SelectedNodes>
+    <node>KP2.KP.Lots</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
